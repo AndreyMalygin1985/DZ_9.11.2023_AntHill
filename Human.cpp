@@ -11,8 +11,7 @@ char* Human::createName(char const* name)
 
 void Human::showInfo()
 {
-	cout << "ID: " << id << endl;
-	cout << "ФИО: " << surname << " " << first_name << " " << last_name << endl;
+	cout << "Ф И О: " << surname << " " << first_name << " " << last_name << endl;
 	cout << "Днюха: ";
 	birthday.show();
 	cout << endl;
