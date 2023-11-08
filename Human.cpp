@@ -9,10 +9,10 @@ char* Human::createName(char const* name)
 	return temp;
 }
 
-void Human::showInfo()
+void Human::showHuman()
 {
 	cout << "Ф И О: " << surname << " " << first_name << " " << last_name << endl;
 	cout << "Днюха: ";
-	birthday.show();
+	birthday.showDate();
 	cout << endl;
 }

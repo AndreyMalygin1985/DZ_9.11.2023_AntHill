@@ -87,6 +87,6 @@ public:
 		return *this;
 	}
 
-	void showInfo();
+	void showHuman();
 };
 

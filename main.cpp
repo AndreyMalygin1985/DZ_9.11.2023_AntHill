@@ -22,12 +22,13 @@ int main()
 {
 	SetConsoleOutputCP(1251);
 
-	Date birthdayX(17, 05, 1985);
-	Human x("Малыгин", "Андрей", "Валерьевич", birthdayX);
-	Human y{ x };
-	y.setFirstName("Пауль");
+	Date birthday_one(17, 05, 1985);
+	Human human_one("Малыгин", "Андрей", "Валерьевич", birthday_one);
+	//Human y{ x };
+	//y.setFirstName("Пауль");
 
-	x.showInfo();
+	human_one.showHuman();
+
 
 	return 0;
 }

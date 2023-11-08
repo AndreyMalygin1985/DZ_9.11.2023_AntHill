@@ -34,7 +34,7 @@ public:
 		this->year = year >= 1 ? year : 0;
 		return *this;
 	}
-	void show()
+	void showDate()
 	{
 		cout << day << "." << month << "." << year << endl;
 	}
